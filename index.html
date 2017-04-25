@@ -1,21 +1,132 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content>
-    <meta name="author" content="kevinbird61">
-    <title> Kevinbird website </title>
-    <!-- <link rel="icon" href="icon.png"> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.9.0/bootstrap-social.min.css" integrity="sha256-02JtFTurpwBjQJ6q13iJe82/NF0RbZlJroDegK5g87Y=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.4/select2.min.css" integrity="sha256-ijlUKKj3hJCiiT2HWo1kqkI79NTEYpzOsw5Rs3k42dI=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/3.5.4/select2-bootstrap.min.css" integrity="sha256-NAWFcNIZdH+TS1xpWujF/EB/Y8gwBbEOCoaK/eqaer8=" crossorigin="anonymous" />
-</head>
-<body>
-    <p> Hello world , kevinbird! </p>
+<title>Kevinbird's personal website!</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content>
+<meta name="author" content="kevinbird61">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="css/main_icon.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+    <!-- SideBar for me -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+        <div class="w3-container">
+        <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+          <i class="fa fa-remove"></i>
+        </a>
+        <!-- Personal mugshot -->
+        <img src="http://i.imgur.com/TTXkvO0.png" style="width:45%;" class="w3-round"><br><br>
+        <!-- User name -->
+        <h4><b>Kevin Cyu (瞿旭民)</b></h4>
+            <!-- Some information of this user  -->
+            <p class="w3-text-grey">Template by W3.CSS</p>
+        </div>
+        <div class="w3-bar-block">
+            <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-fw fa-user-circle-o w3-margin-right"></i>My profile</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Contact me</a>
+        </div>
+        <div class="w3-panel w3-large">
+            <a href="https://www.facebook.com/kevinbird61"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://github.com/kevinbird61"><i class="fa fa-github w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/%E6%97%AD%E6%B0%91-%E7%9E%BF-61317a132/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        </div>
+    </nav>
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Header wrapper -->
+        <header id="portfolio">
+            <a href="#"><img src="http://i.imgur.com/TTXkvO0.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+        <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+            <div class="w3-container">
+            <h1><b>Look at me!</b></h1>
+                <div class="w3-section w3-bottombar w3-padding-16">
+                </div>
+            </div>
+        </header>
+
+        <!-- About me -->
+        <div class="w3-container" style="padding:16px 16px" id="about">
+            <!-- About me - header -->
+            <h3 class="w3-center">About Kevin Cyu</h3>
+            <!-- Studying process -->
+            <p class="w3-center w3-large w3-quarter"></p>
+            <p id="study_process" class="w3-center w3-large w3-aqua w3-round-xlarge w3-half"><i class="fa fa-book" aria-hidden="true"></i> Studying Process <i class="fa fa-book" aria-hidden="true"></i></p>
+            <p class="w3-center w3-large w3-quarter"></p>
+            <div class="w3-row-padding w3-center w3-container" style="margin-top:64px">
+                <!-- Childhood -->
+                <h4 id="before_colleage"><b>My childhood</b></h4>
+                <img class="w3-jumbo w3-center" src="image/maple.png" style="width: 256px;">
+                <h5>When I was 10, I was dreaming about making a game just like MapleStory.</h5>
+                <h5>This impact a lot within my study process.</h5>
+                <hr>
+                <!-- Colleage life -->
+                <h4 id="colleage"><b>My Colleage</b></h4>
+                <img class="w3-jumbo w3-center" src="image/ncku.jpg" style="width: 512px;">
+                <h5>I choose Computer Science as my colleage major, and study in Nation Cheng Kung University in Tainan, Taiwan.</h5>
+                <img class="w3-jumbo w3-center" src="image/nckuesport.jpg" style="width: 256px;">
+                <h5>Also, I had hold the first E-sport event of League of Legend in Nation Cheng Kung University in 2015! That make me gain a lot of experience of leading a group.</h5>
+                <img class="w3-jumbo w3-center" src="image/christmas.jpg" style="width: 512px;">
+                <h5>In my junior, we construct a christmas tree by ourself, which using MSP4305529 to control the lighting show, make our own protocol to pass message from master and send to slave and control all the lighting pattern.</h5>
+                <img class="w3-jumbo w3-center" src="image/angry.png" style="width: 512px;">
+                <h5>Game development - <a href="https://github.com/ncku-pd2/AngryThings">angrythings</a> is the project we built in junior when I was the teacher assistant of course " Program Design - C++ ".</h5>
+                <img class="w3-jumbo w3-center" src="image/pd2royale.png" style="width: 512px;">
+                <h5>And now , as a skillful teacher assistant, we even create an online game for the course!</h5>
+                <h6><a href="https://github.com/pd2-ncku/LifeGamer-Render">Game Render Server - source code </h6>
+                <h6><a href="https://github.com/pd2-ncku/LifeGamer-Battle">Game Battle Server - source code </h6>
+                <hr>
+            </div>
+            <!-- Programming Skills -->
+            <p class="w3-center w3-large w3-quarter"></p>
+            <p class="w3-center w3-large w3-teal w3-round-xlarge w3-half"><i class="fa fa-code" aria-hidden="true"></i> Programing Skill <i class="fa fa-code" aria-hidden="true"></i></p>
+            <p class="w3-center w3-large w3-quarter"></p>
+            <hr>
+            <div class="w3-row-padding w3-center" style="margin-top:64px">
+                <!-- C++ -->
+                <div class="w3-quarter">
+                    <img class="w3-jumbo w3-center" src="image/c-logo.png" style="width: 128px">
+                    <p>Familar with C++ programing with Qt</p>
+                </div>
+                <!-- Html5 game -->
+                <div class="w3-quarter">
+                    <img class="w3-jumbo w3-center" src="image/html-5-logo.png" style="width: 128px">
+                    <p>Interest in Html5 Game Develop!</p>
+                </div>
+                <!-- NodeJS -->
+                <div class="w3-quarter">
+                    <img class="w3-jumbo w3-center" src="image/js-logo.png" style="width: 128px">
+                    <p>Using Nodejs to build some fansy work!</p>
+                </div>
+                <!--  -->
+                <div class="w3-quarter">
+                    <img class="w3-jumbo w3-center" src="image/linux.png" style="width: 128px">
+                    <p>Also familiar with linux~</p>
+                </div>
+          </div>
+        </div>
+    </div>
+
 </body>
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
 </html>
