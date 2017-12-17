@@ -5,6 +5,25 @@
     <title>Kevin Cyu · Personal</title>
     <!-- Styles -->
     <link rel="stylesheet" href="./css/paper.min.css">
+    <style>
+        html {
+            background-image: url(./bk/image/person/programmer.jpg); 
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        body {
+            width: 100%;
+            min-height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 0;
+            background: rgba(255, 255, 255, .25);
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -12,8 +31,19 @@
             <div id="top" class="demo-title">
                 <div class="row flex-center">
                     <div class="text-center">
-                        <h1><span class="badge">Kevin Cyu (kevinbird61)</span></h1>
-                        <h3>Personal Website, <a href="https://github.com/kevinbird61"><span class="badge primary">Github Page</span></a></h3>
+                        <h1>Kevin Cyu (kevinbird61)</h1>
+                    </div>
+                </div>
+                <!-- <p>
+                    <img src="./bk/image/person/me.jpg" style="width:30%" class="float-left">
+                    Personal Website, <a href="https://github.com/kevinbird61"><span class="badge primary align-middle">Github Page</span></a>
+                </p> -->
+                <div class="row flex-middle">
+                    <div class="sm-6 col">
+                        <img src="./bk/image/person/me.jpg" style="width:50%" class="float-right">
+                    </div>
+                    <div class="sm-6 col text-center">
+                        Personal Website, <a href="https://github.com/kevinbird61"><span class="badge primary align-middle">Github Page</span></a>
                     </div>
                 </div>
             </div> <!-- Top -->
@@ -96,12 +126,17 @@
                         <td>GNU/Linux(Developement)</td>
                         <td><span class="badge success">90%</span></td>
                         </tr>
-                        <td>FreeBSD(Network management)</td>
-                        <td><span class="badge success">60%</span></td>
-                        </tr>
                         <tr>
                         <td>Git</td>
                         <td><span class="badge success">90%</span></td>
+                        </tr>
+                        <tr>
+                        <td>Qt(C++)</td>
+                        <td><span class="badge success">90%</span></td>
+                        </tr>
+                        <tr>
+                        <td>FreeBSD(Network management)</td>
+                        <td><span class="badge success">60%</span></td>
                         </tr>
                         <tr>
                         <td>perf/gnuplot/graphviz</td>
@@ -224,6 +259,43 @@
                             <h5 class="card-subtitle">An offline google translator.</h5>
                             <p class="card-text">A helpful tool when you are reading paper.</p>
                             <a class="card-link" href="https://github.com/kevinbird61/local-google-translator">Source Code</a>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- With Image -->
+                    <div class="card">
+                        <img src="./bk/image/profile/christmas.jpg" alt="Card example image">
+                        
+                        <div class="card-body">
+                            <h4 class="card-title">2015 - Christmas Project</h4>
+                            <h5 class="card-subtitle">Electricity Christmas Tree !</h5>
+                            <p class="card-text">Using MSP430 and some electronic materials to construct an electricity Christmas tree! And we design the entire system, which has a programmable lighting pattern! Cheer!</p>
+                            <button><a href="https://github.com/kevinbird61/2015-Fall-MSP4305529">Source Code</a></button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card">
+                        <img src="./bk/image/work/angry.png" alt="Card example image">
+                        
+                        <div class="card-body">
+                            <h4 class="card-title">Hand-crafted Angry Bird!</h4>
+                            <h5 class="card-subtitle">Using Qt + Box2D to develop a cloning game - AngryBird</h5>
+                            <p class="card-text">Crafting a game with my partner when we are C++ teacher assistant! It's a memorable moment!</p>
+                            <button><a href="https://github.com/ncku-pd2/AngryThings">Source Code</a></button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card">
+                        <img src="./bk/image/work/pd2royale.png" alt="Card example image">
+                        
+                        <div class="card-body">
+                            <h4 class="card-title">Hang-crafted Online Game!</h4>
+                            <h5 class="card-subtitle">Using Node.js + C++ (Qt) to develop an online game - PD2Royale</h5>
+                            <p class="card-text">As second time of being teacher assistant, we enlarge the project size - creating a platform for student to play!</p>
+                            <button><a href="https://github.com/pd2-ncku/LifeGamer-Render">Render Engine</a></button>
+                            <button><a href="https://github.com/pd2-ncku/LifeGamer-Battle">Battle Engine</a></button>
+                            <button class="btn-danger"><a href="https://www.youtube.com/watch?v=e-x1l53ZEKk">Youtube Demo</a></button>
+                            <button class="btn-warning"><a href="http://slides.com/kevinbird61/pd2-royale">Art/Intro</a></button>
                         </div>
                     </div>
                 </article>
