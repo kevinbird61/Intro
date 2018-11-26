@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kevinbird's personal website!</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content>
+<meta name="author" content="kevinbird61">
+<link rel="icon" href="image/icon/tools-and-utensils.png">
+<!-- JQuery -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Font-Awesome 4.7.0 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+<!-- Materialize 0.98.2 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+<script src="js/index.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;amp;lang=en">
+<link href="https://fonts.googleapis.com/css?family=Fresca|Anton|Patua+One" rel="stylesheet">
+<link rel="stylesheet" href="css/timeline.css">
+</head>
+<body class="white">
+    <!-- navigation bar -->
+    <nav class="green">
+        <div class="nav-wrapper container">
+        <a href="#!" class="brand-logo" onclick="sideNav(1)">Kevin's Nest</a>
+        <a href="#" data-activates="slide-out" class="personal" style="display: none;"><i class="material-icons">menu</i></a>
+        <a href="#" data-activates="mobile-fit" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <!-- Tags of the content -->
+            </ul>
+            <!-- For mobile -->
+            <ul class="side-nav" id="mobile-fit">
+                <!-- Origin content from tags -->
+            </ul>
+        </div>
+    </nav>
+    <!-- SideNav -->
+    <ul id="slide-out" class="side-nav">
+    <li>
+        <div class="user-view">
+            <div class="background">
+                <img class="card-image" src="image/person/programmer.jpg">
+            </div>
+            <a href="#!user"><img class="circle" src="image/person/me.jpg"></a>
+            <a href="#!name"><span class="white-text name">瞿旭民(Kevin CYU)</span></a>
+            <a href="#!email"><span class="white-text email">kevinbird61@gmail.com</span></a>
+        </div>
+    </li>
+        <li><a class="subheader">Contact with me</a></li>
+        <li><a class="waves-effect" href="https://github.com/kevinbird61"><i class="fa fa-github fa-2x" aria-hidden="true"></i>My work on Github</a></li>
+        <li><a class="waves-effect" href="https://www.facebook.com/kevinbird61"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i>My Facebook Account</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Also a youtuber!</a></li>
+        <li><a class="btn btn-social-icon btn-youtube" href="https://www.youtube.com/channel/UCr0ZVY1L7SXZcF34smVJQ-g">
+                <span class="fa fa-youtube"></span> My Channel</a></li>
+    </ul>
+<br>
+<!-- Tabs -->
+<div class="row">
+    <div class="col s12">
+        <ul class="tabs white">
+            <li class="tab col s4"><a href="index.html" target="_self" class="font-patua">profile</a></li>
+            <li class="tab col s4"><a href="tech.html" target="_self" class="font-patua active">life</a></li>
+            <li class="tab col s4"><a href="work.html" target="_self" class="font-patua">work</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div class="timeline">
+    <ul>
+        <li>
+            <div>
+            <time>2015 大二上</time> 
+            <h4> Learning HTML and Web programming - </h4>
+            Make some money from build website.<br>
+            <img src="image/tech/HTML.png" align="middle">
+            </div>
+        </li>
+
+        <li>
+            <div>
+            <time>2015 大二下</time> 
+            <h4> Host an e-sport event </h4>
+            Also, I had hold the first E-sport event of League of Legend in Nation Cheng Kung University in 2015! That make me gain a lot of experience of leading a group.<br>
+            <img src="image/profile/nckuesport.jpg" align="middle">
+            </div>
+        </li>
+
+        <li>
+            <div>
+            <time>2016 大三</time> 
+            <h4> Embrace Linux! </h4>
+            Start to be a Linux user <br>
+            <img src="image/tech/linux-wrapper.png" align="middle">
+            </div>
+        </li>
+
+        <li>
+            <div>
+            <time>2016 大三上</time> 
+            <h4> Special Christmas festival!  - </h4>
+            we construct a christmas tree by ourself, which using MSP4305529 to control the lighting show, make our own protocol to pass message from master and send to slave and control all the lighting pattern. <br>
+            <img src="image/profile/christmas.jpg" align="middle">
+            </div>
+        </li>
+
+        <li>
+            <div>
+            <time>2016 大三下</time> 
+            <h4> Game development - </h4>
+            "ANGRYTHING" is the project we built in junior when I was the teacher assistant of course " Program Design - C++ ". <br>
+            <img src="image/work/angry.png" align="middle">
+            </div>
+        </li>
+
+        <li>
+            <div>
+            <time>2017 大四上</time> 
+            <h4> Graduating Project - </h4>
+            Make me get familiar with nodejs to build the backend. <br>
+            <img src="image/tech/nodejs_logo_green.jpg" align="middle">
+            </div>
+        </li>
+        
+        <li>
+            <div>
+            <time>2017 大四下</time> 
+            <h4> Making Online Game! - </h4>
+            As a skillful teacher assistant, we even create an online game for the course!<br>
+            Gameplay on Youtube is available: <a href="https://www.youtube.com/watch?v=e-x1l53ZEKk&feature=youtu.be" target="_blank">here</a> <br>
+            <img src="image/work/pd2royale.png" align="middle">
+            </div>
+        </li>
+    </ul>
+</div>
+<script src="js/timeline.js"></script>
+<!-- Footer -->
+<footer class="page-footer green">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Cheer! You also can email me if you have any idea on my work!</h5>
+                <p class="grey-text text-lighten-4">My Email: kevinbird61@gmail.com</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Contact me</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/kevinbird61"><i class="fa fa-github fa-2x" aria-hidden="true"></i> Github </a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/kevinbird61"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i> Facebook </a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/channel/UCr0ZVY1L7SXZcF34smVJQ-g"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i> Youtube </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2017 Copyright by Kevin CYU
+            <a class="grey-text text-lighten-4 right" href="#!">More about me</a>
+        </div>
+    </div>
+</footer>
+
+</html>

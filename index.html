@@ -1,342 +1,201 @@
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Kevin Cyu · Personal</title>
-    <!-- Styles -->
-    <link rel="stylesheet" href="./css/paper.min.css">
-    <style>
-        html {
-            background-image: url(./bk/image/person/programmer.jpg); 
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
+<!-- "doc" type, with tabs usage as template--><!-- Author: Kevin Cyu--><!-- Include mixin--><!-- mixin - list--><!-- Main--><!DOCTYPE html><html><!-- Include head--><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Kevin Cyu</title><!-- Select the theme--><link rel="stylesheet" href="./asset/paper.min.css"><link rel="stylesheet" href="./asset/monokai.css"><link rel="stylesheet" href="./asset/main.css"><link rel="stylesheet" href="./asset/cn-font.css"><link rel="stylesheet" href="./asset/highlight.min.css"><style>.tabs input[id = tab6]:checked~div[id = content6]{display: block}</style><style>.tabs input[id = tab7]:checked~div[id = content7]{display: block}</style><script type="text/x-mathjax-config">MathJax.Hub.Config({ jax: ["input/TeX", "output/HTML-CSS"], extensions: ["tex2jax.js"], "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }, tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" }, TeX: { noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } } }, messageStyle: "none"});</script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script><script src="./asset/highlight.min.js"></script><script>hljs.initHighlightingOnLoad();</script></head><body><div class="container"><div class="paper"><div class="demo-title" id="top"><div class="row flex-center"><div class="text-center"> <h1 class=".cn" id="Kevin%20Cyu">Kevin Cyu</h1></div></div></div><div class="section"><div class="flex-spaces tabs">
+<input id="tab1" type="radio" name="tabs" checked="">
+<label id="label_tab1" for="tab1">about</label>
 
-        body {
-            width: 100%;
-            min-height: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            margin: 0;
-            background: rgba(255, 255, 255, .25);
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="paper">
-            <div id="top" class="demo-title">
-                <div class="row flex-center">
-                    <div class="text-center">
-                        <h1>Kevin Cyu (kevinbird61)</h1>
-                    </div>
-                </div>
-                <!-- <p>
-                    <img src="./bk/image/person/me.jpg" style="width:30%" class="float-left">
-                    Personal Website, <a href="https://github.com/kevinbird61"><span class="badge primary align-middle">Github Page</span></a>
-                </p> -->
-                <div class="row flex-middle">
-                    <div class="sm-6 col">
-                        <img src="./bk/image/person/me.jpg" style="width:50%" class="float-right">
-                    </div>
-                    <div class="sm-6 col text-center">
-                        Personal Website, <a href="https://github.com/kevinbird61"><span class="badge primary align-middle">Github Page</span></a>
-                    </div>
-                </div>
-            </div> <!-- Top -->
-            <div id="nav">
-                <div class="row flex-center">
-                    <div class="text-center">
-                        <a href="#std"><button class="btn-secondary">Study</button></a>
-                        <a href="#skill"><button class="btn-success">Skills</button></a>
-                        <a href="#work"><button class="btn-success">Works</button></a>
-                        <a href="#edu"><button class="btn-success">Education</button></a>
-                        <a href="#lang"><button class="btn-success">Language</button></a>
-                        <a href="#sidepj"><button class="btn-success">Side Projects</button></a>
-                        <a href="#tutor"><button class="btn-success">Tutorials</button></a>
-                        <a href="#interest"><button class="btn-success">Interest</button></a>
-                    </div>
-                </div>
-            </div><!-- Nav -->
-            <br><hr>
-            <div id="std">
-                <article class="article">
-                    <h1 class="article-title"><a href="">Current Study</a></h1>
-                    <p class="article-meta">Latest updated in <a href="#">2017/12/18</a></p>
-                    <!-- Add button here -->
-                        <div class="row flex-center">
-                            <div class="text-center">
-                                <button class="btn-primary">SDN</button>
-                                <button class="btn-primary">P4</button>
-                                <button class="btn-primary">Software-Design</button>
-                                <button class="btn-primary">Networking</button>
-                            </div>
-                        </div>
-                    
-                </article>
-            </div> 
-            <br>
-            <hr>
-            <div id="skill">
-                <article class="article">
-                    <h1 class="article-title"><a href="">Skills</a></h1>
-                    <p class="article-meta">Latest updated in <a href="#">2017/12/18</a></p>
-                    <!-- PL -->
-                    <p class="text-lead"> Programming Language </p>
-                    <table class="table-hover">
-                    <thead>
-                        <tr>
-                        <th>Type</th>
-                        <th>Proficiency</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                        <td>C/C++</td>
-                        <td><span class="badge success">80%</span></td>
-                        </tr>
-                        <tr>
-                        <td>Node.js</td>
-                        <td><span class="badge success">70%</span></td>
-                        </tr>
-                        <tr>
-                        <td>MATLAB</td>
-                        <td><span class="badge danger">40%</span></td>
-                        </tr>
-                        <tr>
-                        <td>HTML/CSS</td>
-                        <td><span class="badge danger">30%</span></td>
-                        </tr>
-                    </tbody>
-                    </table>
-                    <!-- Sys -->
-                    <p class="text-lead"> Development Tools </p>
-                    <table class="table-hover">
-                    <thead>
-                        <tr>
-                        <th>Type</th>
-                        <th>Proficiency</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                        <td>GNU/Linux(Developement)</td>
-                        <td><span class="badge success">90%</span></td>
-                        </tr>
-                        <tr>
-                        <td>Git</td>
-                        <td><span class="badge success">90%</span></td>
-                        </tr>
-                        <tr>
-                        <td>Qt(C++)</td>
-                        <td><span class="badge success">90%</span></td>
-                        </tr>
-                        <tr>
-                        <td>FreeBSD(Network management)</td>
-                        <td><span class="badge success">60%</span></td>
-                        </tr>
-                        <tr>
-                        <td>perf/gnuplot/graphviz</td>
-                        <td><span class="badge success">70%</span></td>
-                        </tr>
-                        <tr>
-                        <td>Shell Script(Bash/Batch)</td>
-                        <td><span class="badge success">60%</span></td>
-                        </tr>
-                        <tr>
-                        <td>gdb/valgrind</td>
-                        <td><span class="badge warning">50%</span></td>
-                        </tr>
-                    </tbody>
-                    </table>
-                    <!-- Service -->
-                    <p class="text-lead"> Services </p>
-                    <table class="table-hover">
-                    <thead>
-                        <tr>
-                        <th>Type</th>
-                        <th>Proficiency</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                        <td>MongoDB</td>
-                        <td><span class="badge success">80%</span></td>
-                        </tr>
-                        <tr>
-                        <td>MySQL</td>
-                        <td><span class="badge success">60%</span></td>
-                        </tr>
-                    </tbody>
-                    </table>
-                    <!-- Sys -->
-                    <p class="text-lead"> Network </p>
-                    <table class="table-hover">
-                    <thead>
-                        <tr>
-                        <th>Type</th>
-                        <th>Proficiency</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                        <td>ntopng</td>
-                        <td><span class="badge warning">50%</span></td>
-                        </tr>
-                    </tbody>
-                    </table>
-                </article>
-            </div><!-- skills -->
-            <br><hr>
-            <div id="work">
-                <article class="article">
-                    <h1 class="article-title"><a href="">Works</a></h1>
-                    <p class="article-meta">Latest updated in <a href="#">2017/12/18</a></p>
+<input id="tab2" type="radio" name="tabs">
+<label id="label_tab2" for="tab2">education</label>
 
-                    <!-- The Work -->
-                    <div class="alert alert-success"> [2015] 1st NCKU E-sport festival - Vice convener</div>
-                    <div class="alert alert-success"> [2016/3~/6] C++ Teacher Assistant - Project Developer</div>
-                    <div class="alert alert-success"> [2017/3~/6] C++ Teacher Assistant - Project Leader</div>
-                    <div class="alert alert-success"> [2016/9~2017/6] NCKU Student Union - IT Minister</div>
-                    <div class="alert alert-secondary"> [2017/5~current] NCKU CSIE PC Assistant </div>
-                </article>
-            </div><!-- work -->
-            <br><hr>
-            <div id="edu">
-                <article class="article">
-                    <h1 class="article-title"><a href="">Education</a></h1>
-                    <p class="article-meta">Latest updated in <a href="#">2017/12/18</a></p>
+<input id="tab3" type="radio" name="tabs">
+<label id="label_tab3" for="tab3">language</label>
 
-                    <!-- The Work -->
-                    <div class="row flex-center">
-                        <div class="sm-2 col background-primary">[2013~2017]</div>
-                        <div class="sm-8 col background-success">Nation Cheng Kung University (NCKU), Computer Science (CSIE)</div>
-                        <div class="sm-2 col background-warning">Bachelor</div>
-                    </div>
-                    <div class="row flex-center">
-                        <div class="sm-2 col background-primary">[2017~current]</div>
-                        <div class="sm-8 col background-success">Nation Cheng Kung University (NCKU), Computer Science (CSIE)</div>
-                        <div class="sm-2 col background-secondary">Master</div>
-                    </div>
-                </article>
-            </div><!-- edu -->
-            <br><hr>
-            <div id="lang">
-                <article class="article">
-                    <h1 class="article-title"><a href="">Language</a></h1>
-                    <p class="article-meta">Latest updated in <a href="#">2017/12/18</a></p>
+<input id="tab4" type="radio" name="tabs">
+<label id="label_tab4" for="tab4">side project</label>
 
-                    <div class="row flex-center">
-                        <div class="text-center">
-                            <button class="btn-primary">English</button>
-                            <button class="btn-primary">Chinese(mandarin)</button>
-                            <button class="btn-primary border-dashed">Taiwanese</button>
-                        </div>
-                    </div>
-                </article> 
-            </div><!-- edu -->
-            <br><hr>
-            <div id="sidepj">
-                <article class="article">
-                    <h1 class="article-title"><a href="">Side Project</a></h1>
-                    <p class="article-meta">Latest updated in <a href="#">2017/12/18</a></p>
+<input id="tab5" type="radio" name="tabs">
+<label id="label_tab5" for="tab5">skills</label>
 
-                    <div class="card" >
-                        <div class="card-body">
-                            <h4 class="card-title">docoGen</h4>
-                            <h5 class="card-subtitle">A document tool within your masterpiece.</h5>
-                            <p class="card-text">Base on LaTeX and Node.js to build your own fancy paper work.</p>
-                            <a class="card-link" href="https://github.com/toolbuddy/docoGen">Source Code</a>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">local-google-translator</h4>
-                            <h5 class="card-subtitle">An offline google translator.</h5>
-                            <p class="card-text">A helpful tool when you are reading paper.</p>
-                            <a class="card-link" href="https://github.com/kevinbird61/local-google-translator">Source Code</a>
-                        </div>
-                    </div>
-                    <br>
-                    <!-- With Image -->
-                    <div class="card">
-                        <img src="./bk/image/profile/christmas.jpg" alt="Card example image">
-                        
-                        <div class="card-body">
-                            <h4 class="card-title">2015 - Christmas Project</h4>
-                            <h5 class="card-subtitle">Electricity Christmas Tree !</h5>
-                            <p class="card-text">Using MSP430 and some electronic materials to construct an electricity Christmas tree! And we design the entire system, which has a programmable lighting pattern! Cheer!</p>
-                            <button><a href="https://github.com/kevinbird61/2015-Fall-MSP4305529">Source Code</a></button>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="card">
-                        <img src="./bk/image/work/angry.png" alt="Card example image">
-                        
-                        <div class="card-body">
-                            <h4 class="card-title">Hand-crafted Angry Bird!</h4>
-                            <h5 class="card-subtitle">Using Qt + Box2D to develop a cloning game - AngryBird</h5>
-                            <p class="card-text">Crafting a game with my partner when we are C++ teacher assistant! It's a memorable moment!</p>
-                            <button><a href="https://github.com/ncku-pd2/AngryThings">Source Code</a></button>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="card">
-                        <img src="./bk/image/work/pd2royale.png" alt="Card example image">
-                        
-                        <div class="card-body">
-                            <h4 class="card-title">Hang-crafted Online Game!</h4>
-                            <h5 class="card-subtitle">Using Node.js + C++ (Qt) to develop an online game - PD2Royale</h5>
-                            <p class="card-text">As second time of being teacher assistant, we enlarge the project size - creating a platform for student to play!</p>
-                            <button><a href="https://github.com/pd2-ncku/LifeGamer-Render">Render Engine</a></button>
-                            <button><a href="https://github.com/pd2-ncku/LifeGamer-Battle">Battle Engine</a></button>
-                            <button class="btn-danger"><a href="https://www.youtube.com/watch?v=e-x1l53ZEKk">Youtube Demo</a></button>
-                            <button class="btn-warning"><a href="http://slides.com/kevinbird61/pd2-royale">Art/Intro</a></button>
-                        </div>
-                    </div>
-                </article>
-            </div><!-- side project -->
-            <br><hr>
-            <div id="tutor">
-                <article class="article">
-                    <h1 class="article-title"><a href="">Tutorial</a></h1>
-                    <p class="article-meta">Latest updated in <a href="#">2017/12/18</a></p>
+<input id="tab6" type="radio" name="tabs">
+<label id="label_tab6" for="tab6">study</label>
 
-                    <div class="row flex-center">
-                        <div class="text-center">
-                            <a herf="https://github.com/toolbuddy/Graph-Theory"><button class="btn-primary">Graph Theory</button>
-                        </div>
-                    </div>
-                </article> 
-            </div><!-- tutor -->
-            <br><hr>
-            <div id="interest">
-                <article class="article">
-                    <h1 class="article-title"><a href="">Interest</a></h1>
-                    <p class="article-meta">Latest updated in <a href="#">2017/12/18</a></p>
+<input id="tab7" type="radio" name="tabs">
+<label id="label_tab7" for="tab7">work</label>
 
-                    <div class="row flex-center">
-                        <div class="text-center">
-                            <button class="btn-secondary">Gaming</button>
-                            <button class="btn-secondary">Hacking</button>
-                            <button class="btn-danger">Horror Story/Game</button>
-                        </div>
-                    </div>
-                </article> 
-            </div><!-- tutor -->
-            <br>
-            
-            <br><hr>
-            <div class="row flex-right">
-                <p>
-                    Created by <span class="badge secondary">Kevin Cyu</span> with <a href="https://www.getpapercss.com/"><span class="badge">papercss</span></a>
-                </p>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+<div class="content" id="content1"><p></p><h2 id="Hey%20there!">Hey there!</h2>
+<p>Welcome to my personal website, this website is made by <a href="https://github.com/toolbuddy/papoGen">papoGen</a>, which is one of my side project!</p>
+<p><img src="./res/me.jpg" alt=""></p>
+<p>I'm a network researcher, studies on SDN/P4 currently. Also a Node.js player, Qt application/game maker. And the founder of <a href="https://github.com/toolbuddy">toolbuddy</a>.</p>
+<hr>
+<p><strong>Contact me</strong></p>
+<ul>
+<li>via Email: kevinbird61@gmail.com</li>
+<li><a href="https://www.facebook.com/kevinbird61">Facebook</a></li>
+<li><a href="https://github.com/kevinbird61">Github</a></li>
+<li><a href="https://www.linkedin.com/in/%E6%97%AD%E6%B0%91-%E7%9E%BF-61317a132/">LinkedIn</a></li>
+</ul>
+<p></p></div><div class="content" id="content2"><p></p><h2 id="Education">Education</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Institution</th>
+<th>Degree</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2013 ~ 2017</td>
+<td>Nation Cheng Kung University (NCKU), Computer Science</td>
+<td>Bachelor</td>
+</tr>
+<tr>
+<td>2017 ~ current</td>
+<td>Nation Cheng Kung University (NCKU), Computer Science</td>
+<td>Master</td>
+</tr>
+</tbody>
+</table>
+<p></p></div><div class="content" id="content3"><p></p><h2 id="Languages">Languages</h2>
+<ul>
+<li>Mandarin (Native language)</li>
+<li>English (Medium)</li>
+</ul>
+<p></p></div><div class="content" id="content4"><p></p><h2 id="Side%20Projects">Side Projects</h2>
+<h3 id="<a%20href=&quot;https://github.com/toolbuddy/docoGen&quot;>docoGen</a>"><a href="https://github.com/toolbuddy/docoGen">docoGen</a></h3>
+<p><img src="https://i.imgur.com/ZN1WU8s.png" alt=""></p>
+<p>Base on LaTeX and Node.js to build fancy paper work.</p>
+<h3 id="<a%20href=&quot;https://github.com/toolbuddy/papoGen&quot;>papoGen</a>"><a href="https://github.com/toolbuddy/papoGen">papoGen</a></h3>
+<p><img src="./res/papogen.png" alt=""></p>
+<p>Use Sass/CSS + Pug + Node.js to generate beautiful static website.</p>
+<h3 id="<a%20href=&quot;https://github.com/kevinbird61/2015-Fall-MSP4305529&quot;>2015 - Chrismas Project</a>"><a href="https://github.com/kevinbird61/2015-Fall-MSP4305529">2015 - Chrismas Project</a></h3>
+<p><img src="./res/christmas.jpg" alt=""></p>
+<p>Using MSP430 and some electronic materials to construct an <strong>electricity Christmas tree</strong>! And we design the entire system, which has a programmable lighting pattern! Cheer!</p>
+<h3 id="<a%20href=&quot;https://github.com/kevinbird61/local-google-translator&quot;>local-google-translator</a>"><a href="https://github.com/kevinbird61/local-google-translator">local-google-translator</a></h3>
+<p><img src="https://i.imgur.com/kLPOEEJ.gif" alt=""></p>
+<p>Using Qt to build a self-used translator, a good tool with reading paper.</p>
+<h3 id="<a%20href=&quot;https://github.com/ncku-pd2/AngryThings&quot;>AngryThings</a>"><a href="https://github.com/ncku-pd2/AngryThings">AngryThings</a></h3>
+<p><img src="./res/angry.png" alt=""></p>
+<p>Clone of Angrybird, TA demo for final project of 2016 course, which is developed by Qt.</p>
+<h3 id="<a%20href=&quot;https://github.com/kevinbird61/BBTAN-on-Qt&quot;>BBTAN-on-Qt</a>"><a href="https://github.com/kevinbird61/BBTAN-on-Qt">BBTAN-on-Qt</a></h3>
+<p>Qt tutorials of making an android game - BBTAN, aim to teach the students to have knowledge to
+develop their game with Qt.</p>
+<h3 id="<a%20href=&quot;https://github.com/pd2-ncku/LifeGamer-Render&quot;>LifeGamer - Render Server</a>"><a href="https://github.com/pd2-ncku/LifeGamer-Render">LifeGamer - Render Server</a></h3>
+<p><img src="./res/pd2royale.png" alt=""></p>
+<p>Base on Node.js and Pixi.js to build the render engine for Game platform.</p>
+<ul>
+<li>Demo video: <a href="https://www.youtube.com/watch?v=e-x1l53ZEKk">youtube</a></li>
+<li>Art / Game Introduction: <a href="http://slides.com/kevinbird61/pd2-royale">slides.com</a></li>
+</ul>
+<h3 id="<a%20href=&quot;https://github.com/kevinbird61/p4-researching&quot;>P4 researching</a>"><a href="https://github.com/kevinbird61/p4-researching">P4 researching</a></h3>
+<p>P4 learning and experiment materials. Also make some tutorials/training courses and test
+environment (via Docker) of P4.</p>
+<h3 id="<a%20href=&quot;https://github.com/WasmVM/WasmVM&quot;>WasmVM</a>"><a href="https://github.com/WasmVM/WasmVM">WasmVM</a></h3>
+<p>Developing a standalone virtual machine which following Webassembly spec, to leverage its memory design,
+and other advantages. Also we have design some extensible feature for making it a virtual machine.</p>
+<p></p></div><div class="content" id="content5"><p></p><h2 id="Skills">Skills</h2>
+<h3 id="Programming%20Languages">Programming Languages</h3>
+<ul>
+<li>C/C++</li>
+<li>Node.js</li>
+<li>Shell script</li>
+<li>Golang</li>
+<li>P4</li>
+<li>python</li>
+</ul>
+<h3 id="Development%20Environments">Development Environments</h3>
+<ul>
+<li>GNU/Linux, Freebsd</li>
+<li>Git</li>
+<li>Qt (C++)</li>
+<li>perf</li>
+<li>gnuplot/graphviz</li>
+<li>gdb/valgrind</li>
+</ul>
+<h3 id="Web%20Service/Deployment">Web Service/Deployment</h3>
+<ul>
+<li>Pixi.js (Html5 Game)</li>
+<li>MongoDB</li>
+<li>MySQL</li>
+<li>Heroku</li>
+</ul>
+<h3 id="Network%20Monitor/Traffic management">Network Monitor/Traffic management</h3>
+<ul>
+<li>ntopng</li>
+<li>mininet</li>
+</ul>
+<p></p></div><div class="content" id="content6"><p></p><h2 id="Current%20Study">Current Study</h2>
+<p>I'm currently study on:</p>
+<ul>
+<li>Software-define network (SDN)</li>
+<li>P4 (Programming Protocol-Independent Packet Processors)</li>
+<li>VNF (Virtual network function) offloading on Data plane</li>
+<li>Congestion control / Load balancing mechanism</li>
+</ul>
+<p></p></div><div class="content" id="content7"><p></p><h2 id="Work%20experience">Work experience</h2>
+<h3 id="Job">Job</h3>
+<ul>
+<li>C++ program design
+<ul>
+<li><strong>2016</strong>: Teacher Assistant (Project Developer), develop <code>AngryThings</code> with partner.</li>
+<li><strong>2017</strong>: Teacher Assistant (Project Leader), develop <code>LifeGamer - Render Server</code> and design system architecture.</li>
+<li><strong>2018</strong>: Teacher Assistant (Project Leader),
+maintain <code>LifeGamer</code> platform.</li>
+</ul>
+</li>
+<li>CS Department of NCKU
+<ul>
+<li><strong>2017~Current</strong>: PC Assistant</li>
+</ul>
+</li>
+<li>Toolbuddy (Github Organization)
+<ul>
+<li><strong>2017~Current</strong>: Founder</li>
+</ul>
+</li>
+<li>EFACANI Tech.
+<ul>
+<li><strong>2017~Current</strong>: Back-end Engineer</li>
+<li>Development
+<ul>
+<li>Cryptocurrency trading bot</li>
+<li>Web Service of trading bot</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Activities">Activities</h3>
+<ul>
+<li><strong>1st E-sport festival (League of legends / Hearthstone)</strong> in National Cheng Kung University
+<ul>
+<li>2015: <strong>Vice convener</strong></li>
+</ul>
+</li>
+<li>National Cheng Kung University - <strong>Students' union</strong>
+<ul>
+<li>2016~2017: <strong>Minister of IT department</strong></li>
+</ul>
+</li>
+</ul>
+<p></p></div></div></div><div class="to-top"><a class="paper-btn margin" href="#top">Top</a><div class="row flex-spaces child-borders"><label class="paper-btn margin" for="modal-1">T.O.C.</label></div></div><input class="modal-state" id="modal-1" type="checkbox"><div class="modal modal-dialog"><label class="modal-bg" for="modal-1"></label><div class="modal-body"><label class="btn-close" for="modal-1">X </label><h4 class="modal-title">Table of Content</h4><h5 class="modal-subtitle">Click and go !</h5><div class="modal-body" id="toc"><h4 class="modal-text">about</h4><hr><ol><ol><li><a href="#Hey%20there!">Hey there!</a></li><a href="#Hey%20there!">
+</a></ol></ol><h4 class="modal-text">education</h4><hr><ol><ol><li><a href="#Education">Education</a></li><a href="#Education">
+</a></ol></ol><h4 class="modal-text">language</h4><hr><ol><ol><li><a href="#Languages">Languages</a></li><a href="#Languages">
+</a></ol></ol><h4 class="modal-text">side project</h4><hr><ol><ol><li><a href="#Side%20Projects">Side Projects</a></li><a href="#Side%20Projects">
+</a><ol><a href="#Side%20Projects"></a><li><a href="#Side%20Projects"></a><a href="#<a%20href=&quot;https://github.com/toolbuddy/docoGen&quot;">docoGen</a>&gt;<a href="https://github.com/toolbuddy/docoGen">docoGen</a></li>
+<li><a href="#<a%20href=&quot;https://github.com/toolbuddy/papoGen&quot;">papoGen</a>&gt;<a href="https://github.com/toolbuddy/papoGen">papoGen</a></li>
+<li><a href="#<a%20href=&quot;https://github.com/kevinbird61/2015-Fall-MSP4305529&quot;">2015 - Chrismas Project</a>&gt;<a href="https://github.com/kevinbird61/2015-Fall-MSP4305529">2015 - Chrismas Project</a></li>
+<li><a href="#<a%20href=&quot;https://github.com/kevinbird61/local-google-translator&quot;">local-google-translator</a>&gt;<a href="https://github.com/kevinbird61/local-google-translator">local-google-translator</a></li>
+<li><a href="#<a%20href=&quot;https://github.com/ncku-pd2/AngryThings&quot;">AngryThings</a>&gt;<a href="https://github.com/ncku-pd2/AngryThings">AngryThings</a></li>
+<li><a href="#<a%20href=&quot;https://github.com/kevinbird61/BBTAN-on-Qt&quot;">BBTAN-on-Qt</a>&gt;<a href="https://github.com/kevinbird61/BBTAN-on-Qt">BBTAN-on-Qt</a></li>
+<li><a href="#<a%20href=&quot;https://github.com/pd2-ncku/LifeGamer-Render&quot;">LifeGamer - Render Server</a>&gt;<a href="https://github.com/pd2-ncku/LifeGamer-Render">LifeGamer - Render Server</a></li>
+<li><a href="#<a%20href=&quot;https://github.com/kevinbird61/p4-researching&quot;">P4 researching</a>&gt;<a href="https://github.com/kevinbird61/p4-researching">P4 researching</a></li>
+<li><a href="#<a%20href=&quot;https://github.com/WasmVM/WasmVM&quot;">WasmVM</a>&gt;<a href="https://github.com/WasmVM/WasmVM">WasmVM</a></li>
+</ol></ol></ol><h4 class="modal-text">skills</h4><hr><ol><ol><li><a href="#Skills">Skills</a></li><a href="#Skills">
+</a><ol><a href="#Skills"></a><li><a href="#Skills"></a><a href="#Programming%20Languages">Programming Languages</a></li><a href="#Programming%20Languages">
+</a><li><a href="#Programming%20Languages"></a><a href="#Development%20Environments">Development Environments</a></li><a href="#Development%20Environments">
+</a><li><a href="#Development%20Environments"></a><a href="#Web%20Service/Deployment">Web Service/Deployment</a></li><a href="#Web%20Service/Deployment">
+</a><li><a href="#Web%20Service/Deployment"></a><a href="#Network%20Monitor/Traffic" management="">Network Monitor/Traffic management</a></li><a href="#Network%20Monitor/Traffic" management="">
+</a></ol></ol></ol><h4 class="modal-text">study</h4><hr><ol><ol><li><a href="#Current%20Study">Current Study</a></li><a href="#Current%20Study">
+</a></ol></ol><h4 class="modal-text">work</h4><hr><ol><ol><li><a href="#Work%20experience">Work experience</a></li><a href="#Work%20experience">
+</a><ol><a href="#Work%20experience"></a><li><a href="#Work%20experience"></a><a href="#Job">Job</a></li><a href="#Job">
+</a><li><a href="#Job"></a><a href="#Activities">Activities</a></li><a href="#Activities">
+</a></ol></ol></ol></div></div></div><div class="row flex-right"><p>Created by <span class="badge secondary">@ToolBuddy/papoGen(papercss)</span></p></div></div></div></body></html>
