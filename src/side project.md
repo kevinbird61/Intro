@@ -32,8 +32,11 @@ Clone of Angrybird, TA demo for final project of 2016 course, which is developed
 
 ### [BBTAN-on-Qt](https://github.com/kevinbird61/BBTAN-on-Qt)
 
-Qt tutorials of making an android game - BBTAN, aim to teach the students to have knowledge to
-develop their game with Qt.
+![](res/BBTAN.png)
+
+Qt tutorials of making an android game - BBTAN, aim to teach the students to have knowledge to develop their game with Qt. 
+
+[Live demo](https://www.youtube.com/watch?v=5zrB5aS5AWo)
 
 ### [LifeGamer - Render Server](https://github.com/pd2-ncku/LifeGamer-Render)
 
@@ -46,10 +49,26 @@ Base on Node.js and Pixi.js to build the render engine for Game platform.
 
 ### [P4 researching](https://github.com/kevinbird61/p4-researching) 
 
+![](res/program_architecture.png)
+
 P4 learning and experiment materials. Also make some tutorials/training courses and test
 environment (via Docker) of P4.
 
+Provide some implementation of P4 in open source environment (`BMv2`):
+* Basic forwarding
+* Dynamic forwarding 
+* ECMP/WCMP
+* L2 learning switch
+* Digest (Feature of P4)
+* MPLS (simplify version)
+* NAT
+* Monitor (leverage counter)
+* Local routing (leverage register)
+* Boardcast/Multicast
+
 ### [WasmVM](https://github.com/WasmVM/WasmVM)
+
+![](res/wasmvm.png)
 
 Developing a standalone virtual machine which following Webassembly spec, to leverage its memory design,
 and other advantages. Also we have design some extensible feature for making it a virtual machine.
