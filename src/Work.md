@@ -4,6 +4,13 @@
 
 * Junior Software Engineer (DDoS Security - Data Plane Team)
 
+### [EFACANI Tech.](https://www.efacani.com/efacani_Introduce/) (2018.3~2018.11)
+
+* Par time Back-end Engineer
+* Development ( `electron`, `node.js`, `git`, `heroku` )
+    * Cryptocurrency trading bot
+    * Web Service of trading bot 
+
 ### National Cheng Kung University (2013~2019)
 
 * C++ program design
@@ -15,8 +22,3 @@
     * **2019 Spring**: Teacher Assistant, develop [fake-mininet](https://github.com/kevinbird61/fake-mininet) for term project.
 * CS Department of NCKU
     * **2017.7 ~ 2019.7**: PC Assistant 
-* [EFACANI Tech.](https://www.efacani.com/efacani_Introduce/)
-    * **2018.3~2018.11 ( 8 months )**: Back-end Engineer
-    * Development ( `electron`, `node.js`, `git`, `heroku` )
-        * Cryptocurrency trading bot
-        * Web Service of trading bot 
