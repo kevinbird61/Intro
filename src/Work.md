@@ -1,8 +1,9 @@
 ## Work experience 
 
-### A10 Network (2019.9~?)
+### A10 Network (2019.9 ~ Now)
 
-* Junior Software Engineer (DDoS Security - Data Plane Team)
+* Junior Software Engineer, data plane team - TPS (2019.9 ~ 2020.2)
+* Junior Software Engineer, data plane team - CGN (2020.2 ~ Now)
 
 ### [EFACANI Tech.](https://www.efacani.com/efacani_Introduce/) (2018.3~2018.11)
 

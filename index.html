@@ -26,7 +26,7 @@
 <div class="content" id="content1"><p></p><h2 id="Hey%20there!">Hey there!</h2>
 <p>Welcome to my personal website, this website is made by <a href="https://github.com/toolbuddy/papoGen">papoGen</a>, which is one of my side project!</p>
 <p><img src="./res/me.jpg" alt=""></p>
-<p>I'm a network researcher, studies on SDN/P4 currently. Also a Node.js player, Qt application/game maker. And the founder of <a href="https://github.com/toolbuddy">toolbuddy</a>.</p>
+<p>I'm a network researcher, studied SDN/P4 &amp; network security in my master degree. Also I'm a Node.js player, Qt application/game maker, founder of <a href="https://github.com/toolbuddy">toolbuddy</a>.</p>
 <hr>
 <p><strong>Contact me</strong></p>
 <ul>
@@ -81,33 +81,17 @@
 <li>English (Medium)</li>
 </ul>
 <p></p></div><div class="content" id="content5"><p></p><h2 id="Side%20Projects">Side Projects</h2>
-<h3 id="<a%20href=&quot;https://github.com/toolbuddy/docoGen&quot;>docoGen</a>"><a href="https://github.com/toolbuddy/docoGen">docoGen</a></h3>
-<p><img src="https://i.imgur.com/ZN1WU8s.png" alt=""></p>
-<p>Base on LaTeX and Node.js to build fancy paper work.</p>
-<h3 id="<a%20href=&quot;https://github.com/toolbuddy/papoGen&quot;>papoGen</a>"><a href="https://github.com/toolbuddy/papoGen">papoGen</a></h3>
-<p><img src="./res/papogen.png" alt=""></p>
-<p>Use Sass/CSS + Pug + Node.js to generate beautiful static website.</p>
-<h3 id="<a%20href=&quot;https://github.com/kevinbird61/2015-Fall-MSP4305529&quot;>2015 - Chrismas Project</a>"><a href="https://github.com/kevinbird61/2015-Fall-MSP4305529">2015 - Chrismas Project</a></h3>
-<p><img src="./res/christmas.jpg" alt=""></p>
-<p>Using MSP430 and some electronic materials to construct an <strong>electricity Christmas tree</strong>! And we design the entire system, which has a programmable lighting pattern! Cheer!</p>
-<h3 id="<a%20href=&quot;https://github.com/kevinbird61/local-google-translator&quot;>local-google-translator</a>"><a href="https://github.com/kevinbird61/local-google-translator">local-google-translator</a></h3>
-<p><img src="https://i.imgur.com/kLPOEEJ.gif" alt=""></p>
-<p>Using Qt to build a self-used translator, a good tool with reading paper.</p>
-<h3 id="<a%20href=&quot;https://github.com/ncku-pd2/AngryThings&quot;>AngryThings</a>"><a href="https://github.com/ncku-pd2/AngryThings">AngryThings</a></h3>
-<p><img src="./res/angry.png" alt=""></p>
-<p>Clone of Angrybird, TA demo for final project of 2016 course, which is developed by Qt.</p>
-<h3 id="<a%20href=&quot;https://github.com/kevinbird61/BBTAN-on-Qt&quot;>BBTAN-on-Qt</a>"><a href="https://github.com/kevinbird61/BBTAN-on-Qt">BBTAN-on-Qt</a></h3>
-<p><img src="./res/BBTAN.png" alt=""></p>
-<p>Qt tutorials of making an android game - BBTAN, aim to teach the students to have knowledge to develop their game with Qt.</p>
-<p><a href="https://www.youtube.com/watch?v=5zrB5aS5AWo">Live demo</a></p>
-<h3 id="<a%20href=&quot;https://github.com/pd2-ncku/LifeGamer-Render&quot;>LifeGamer - Render Server</a>"><a href="https://github.com/pd2-ncku/LifeGamer-Render">LifeGamer - Render Server</a></h3>
-<p><img src="./res/pd2royale.png" alt=""></p>
-<p>Base on Node.js and Pixi.js to build the render engine for Game platform.</p>
 <ul>
-<li>Demo video: <a href="https://www.youtube.com/watch?v=e-x1l53ZEKk">youtube</a></li>
-<li>Art / Game Introduction: <a href="http://slides.com/kevinbird61/pd2-royale">slides.com</a></li>
+<li>Network-related Projects</li>
+<li>Qt / C++</li>
+<li>Node.js</li>
+<li>Embedded System / MCU</li>
+<li>Virtualization</li>
+<li>Mathematics</li>
 </ul>
-<h3 id="<a%20href=&quot;https://github.com/kevinbird61/p4-researching&quot;>P4 researching</a>"><a href="https://github.com/kevinbird61/p4-researching">P4 researching</a></h3>
+<hr>
+<h3 id="★%20Network-related Projects">★ Network-related Projects</h3>
+<h4><a href="https://github.com/kevinbird61/p4-researching">P4 researching</a></h4>
 <p><img src="./res/program_architecture.png" alt=""></p>
 <p>P4 learning and experiment materials. Also make some tutorials/training courses and test
 environment (via Docker) of P4.</p>
@@ -124,10 +108,69 @@ environment (via Docker) of P4.</p>
 <li>Local routing (leverage register)</li>
 <li>Boardcast/Multicast</li>
 </ul>
-<h3 id="<a%20href=&quot;https://github.com/WasmVM/WasmVM&quot;>WasmVM</a>"><a href="https://github.com/WasmVM/WasmVM">WasmVM</a></h3>
+<h4><a href="https://github.com/kevinbird61/virtual-router">Virtual Router</a></h4>
+<p><img src="./res/virtual-router-topo.png" alt=""></p>
+<p>Using tuntap to simulate router port, and implement software router and related network functions with C, and also provide documents on <a href="https://hackmd.io/@scyu/HyGwpzGL8">HackMD</a>, support:</p>
+<ul>
+<li>Basic forwarding</li>
+<li>L3
+<ul>
+<li>ARP</li>
+</ul>
+</li>
+<li>L4
+<ul>
+<li>ICMP</li>
+</ul>
+</li>
+<li>Simple CLI implementation
+<ul>
+<li>show command (e.g. show router's statistics)</li>
+<li>debug command (e.g. show the information of forwarding packets)</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="★%20Node.js">★ Node.js</h3>
+<h4><a href="https://github.com/toolbuddy/docoGen">docoGen</a></h4>
+<p>Base on LaTeX and Node.js to build fancy paper work.</p>
+<h4><a href="https://github.com/toolbuddy/papoGen">papoGen</a></h4>
+<p><img src="./res/papogen.png" alt=""></p>
+<p>Use Sass/CSS + Pug + Node.js to generate beautiful static website.</p>
+<h4><a href="https://github.com/pd2-ncku/LifeGamer-Render">LifeGamer - Render Server</a></h4>
+<p><img src="./res/pd2royale.png" alt=""></p>
+<p>Base on Node.js and Pixi.js to build the render engine for Game platform.</p>
+<ul>
+<li>Demo video: <a href="https://www.youtube.com/watch?v=e-x1l53ZEKk">youtube</a></li>
+<li>Art / Game Introduction: <a href="http://slides.com/kevinbird61/pd2-royale">slides.com</a></li>
+</ul>
+<hr>
+<h3 id="★%20Qt / C++">★ Qt / C++</h3>
+<h4><a href="https://github.com/kevinbird61/local-google-translator">local-google-translator</a></h4>
+<p><img src="https://i.imgur.com/kLPOEEJ.gif" alt=""></p>
+<p>Using Qt to build a self-used translator, a good tool with reading paper.</p>
+<h4><a href="https://github.com/ncku-pd2/AngryThings">AngryThings</a></h4>
+<p><img src="./res/angry.png" alt=""></p>
+<p>Clone of Angrybird, TA demo for final project of 2016 course, which is developed by Qt.</p>
+<h4><a href="https://github.com/kevinbird61/BBTAN-on-Qt">BBTAN-on-Qt</a></h4>
+<p><img src="./res/BBTAN.png" alt=""></p>
+<p>Qt tutorials of making an android game - BBTAN, aim to teach the students to have knowledge to develop their game with Qt.</p>
+<p><a href="https://www.youtube.com/watch?v=5zrB5aS5AWo">Live demo</a></p>
+<hr>
+<h3 id="★%20Embedded System / MCU">★ Embedded System / MCU</h3>
+<h4><a href="https://github.com/kevinbird61/2015-Fall-MSP4305529">2015 - Chrismas Project</a></h4>
+<p><img src="./res/christmas.jpg" alt=""></p>
+<p>Using MSP430 and some electronic materials to construct an <strong>electricity Christmas tree</strong>! And we design the entire system, which has a programmable lighting pattern! Cheer!</p>
+<hr>
+<h3 id="★%20Virtualization">★ Virtualization</h3>
+<h4><a href="https://github.com/WasmVM/WasmVM">WasmVM</a></h4>
 <p><img src="./res/wasmvm.png" alt=""></p>
 <p>Developing a standalone virtual machine which following Webassembly spec, to leverage its memory design,
 and other advantages. Also we have design some extensible feature for making it a virtual machine.</p>
+<hr>
+<h3 id="★%20Mathematics">★ Mathematics</h3>
+<h4><a href="https://github.com/kevinbird61/stochastic-calculus-and-probability-model">Stochastic process</a></h4>
+<p>Record the learning materials of the course - "STOCHASTIC ANALYSIS OF COMPUTER NETWORKS" in National Cheng Kung University.</p>
 <p></p></div><div class="content" id="content6"><p></p><h2 id="Skills">Skills</h2>
 <h3 id="Programming%20Languages">Programming Languages</h3>
 <ul>
@@ -169,9 +212,10 @@ and other advantages. Also we have design some extensible feature for making it 
 <li>Anomaly detection in SDN</li>
 </ul>
 <p></p></div><div class="content" id="content8"><p></p><h2 id="Work%20experience">Work experience</h2>
-<h3 id="A10%20Network (2019.9~?)">A10 Network (2019.9~?)</h3>
+<h3 id="A10%20Network (2019.9 ~ Now)">A10 Network (2019.9 ~ Now)</h3>
 <ul>
-<li>Junior Software Engineer (DDoS Security - Data Plane Team)</li>
+<li>Junior Software Engineer, data plane team - TPS (2019.9 ~ 2020.2)</li>
+<li>Junior Software Engineer, data plane team - CGN (2020.2 ~ Now)</li>
 </ul>
 <h3 id="<a%20href=&quot;https://www.efacani.com/efacani_Introduce/&quot;>EFACANI Tech.</a> (2018.3~2018.11)"><a href="https://www.efacani.com/efacani_Introduce/">EFACANI Tech.</a> (2018.3~2018.11)</h3>
 <ul>
@@ -209,23 +253,20 @@ and other advantages. Also we have design some extensible feature for making it 
 </a></ol></ol><h4 class="modal-text">Education</h4><hr><ol><ol><li><a href="#Education">Education</a></li><a href="#Education">
 </a></ol></ol><h4 class="modal-text">Language</h4><hr><ol><ol><li><a href="#Languages">Languages</a></li><a href="#Languages">
 </a></ol></ol><h4 class="modal-text">Side project</h4><hr><ol><ol><li><a href="#Side%20Projects">Side Projects</a></li><a href="#Side%20Projects">
-</a><ol><a href="#Side%20Projects"></a><li><a href="#Side%20Projects"></a><a href="#<a%20href=&quot;https://github.com/toolbuddy/docoGen&quot;">docoGen</a>&gt;<a href="https://github.com/toolbuddy/docoGen">docoGen</a></li>
-<li><a href="#<a%20href=&quot;https://github.com/toolbuddy/papoGen&quot;">papoGen</a>&gt;<a href="https://github.com/toolbuddy/papoGen">papoGen</a></li>
-<li><a href="#<a%20href=&quot;https://github.com/kevinbird61/2015-Fall-MSP4305529&quot;">2015 - Chrismas Project</a>&gt;<a href="https://github.com/kevinbird61/2015-Fall-MSP4305529">2015 - Chrismas Project</a></li>
-<li><a href="#<a%20href=&quot;https://github.com/kevinbird61/local-google-translator&quot;">local-google-translator</a>&gt;<a href="https://github.com/kevinbird61/local-google-translator">local-google-translator</a></li>
-<li><a href="#<a%20href=&quot;https://github.com/ncku-pd2/AngryThings&quot;">AngryThings</a>&gt;<a href="https://github.com/ncku-pd2/AngryThings">AngryThings</a></li>
-<li><a href="#<a%20href=&quot;https://github.com/kevinbird61/BBTAN-on-Qt&quot;">BBTAN-on-Qt</a>&gt;<a href="https://github.com/kevinbird61/BBTAN-on-Qt">BBTAN-on-Qt</a></li>
-<li><a href="#<a%20href=&quot;https://github.com/pd2-ncku/LifeGamer-Render&quot;">LifeGamer - Render Server</a>&gt;<a href="https://github.com/pd2-ncku/LifeGamer-Render">LifeGamer - Render Server</a></li>
-<li><a href="#<a%20href=&quot;https://github.com/kevinbird61/p4-researching&quot;">P4 researching</a>&gt;<a href="https://github.com/kevinbird61/p4-researching">P4 researching</a></li>
-<li><a href="#<a%20href=&quot;https://github.com/WasmVM/WasmVM&quot;">WasmVM</a>&gt;<a href="https://github.com/WasmVM/WasmVM">WasmVM</a></li>
-</ol></ol></ol><h4 class="modal-text">Skills</h4><hr><ol><ol><li><a href="#Skills">Skills</a></li><a href="#Skills">
+</a><ol><a href="#Side%20Projects"></a><li><a href="#Side%20Projects"></a><a href="#★%20Network-related" projects="">★ Network-related Projects</a></li><a href="#★%20Network-related" projects="">
+</a><li><a href="#★%20Network-related" projects=""></a><a href="#★%20Node.js">★ Node.js</a></li><a href="#★%20Node.js">
+</a><li><a href="#★%20Node.js"></a><a href="#★%20Qt" c++="">★ Qt / C++</a></li><a href="#★%20Qt" c++="">
+</a><li><a href="#★%20Qt" c++=""></a><a href="#★%20Embedded" system="" mcu="">★ Embedded System / MCU</a></li><a href="#★%20Embedded" system="" mcu="">
+</a><li><a href="#★%20Embedded" system="" mcu=""></a><a href="#★%20Virtualization">★ Virtualization</a></li><a href="#★%20Virtualization">
+</a><li><a href="#★%20Virtualization"></a><a href="#★%20Mathematics">★ Mathematics</a></li><a href="#★%20Mathematics">
+</a></ol></ol></ol><h4 class="modal-text">Skills</h4><hr><ol><ol><li><a href="#Skills">Skills</a></li><a href="#Skills">
 </a><ol><a href="#Skills"></a><li><a href="#Skills"></a><a href="#Programming%20Languages">Programming Languages</a></li><a href="#Programming%20Languages">
 </a><li><a href="#Programming%20Languages"></a><a href="#Development%20Environments">Development Environments</a></li><a href="#Development%20Environments">
 </a><li><a href="#Development%20Environments"></a><a href="#Web%20Service/Deployment">Web Service/Deployment</a></li><a href="#Web%20Service/Deployment">
 </a><li><a href="#Web%20Service/Deployment"></a><a href="#Network%20Monitor/Traffic" management="">Network Monitor/Traffic management</a></li><a href="#Network%20Monitor/Traffic" management="">
 </a></ol></ol></ol><h4 class="modal-text">Study</h4><hr><ol><ol><li><a href="#Current%20Study">Current Study</a></li><a href="#Current%20Study">
 </a></ol></ol><h4 class="modal-text">Work</h4><hr><ol><ol><li><a href="#Work%20experience">Work experience</a></li><a href="#Work%20experience">
-</a><ol><a href="#Work%20experience"></a><li><a href="#Work%20experience"></a><a href="#A10%20Network" (2019.9~?)="">A10 Network (2019.9~?)</a></li><a href="#A10%20Network" (2019.9~?)="">
-</a><li><a href="#A10%20Network" (2019.9~?)=""></a><a href="#<a%20href=&quot;https://www.efacani.com/efacani_Introduce/&quot;">EFACANI Tech.</a> (2018.3~2018.11)&gt;<a href="https://www.efacani.com/efacani_Introduce/">EFACANI Tech.</a> (2018.3~2018.11)</li>
+</a><ol><a href="#Work%20experience"></a><li><a href="#Work%20experience"></a><a href="#A10%20Network" (2019.9="" ~="" now)="">A10 Network (2019.9 ~ Now)</a></li><a href="#A10%20Network" (2019.9="" ~="" now)="">
+</a><li><a href="#A10%20Network" (2019.9="" ~="" now)=""></a><a href="#<a%20href=&quot;https://www.efacani.com/efacani_Introduce/&quot;">EFACANI Tech.</a> (2018.3~2018.11)&gt;<a href="https://www.efacani.com/efacani_Introduce/">EFACANI Tech.</a> (2018.3~2018.11)</li>
 <li><a href="#National%20Cheng" kung="" university="" (2013~2019)="">National Cheng Kung University (2013~2019)</a></li><a href="#National%20Cheng" kung="" university="" (2013~2019)="">
 </a></ol></ol></ol></div></div></div><div class="row flex-right"><p>Created by <span class="badge secondary">@ToolBuddy/papoGen(papercss)</span></p></div></div></div></body></html>

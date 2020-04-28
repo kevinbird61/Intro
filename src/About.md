@@ -4,7 +4,7 @@ Welcome to my personal website, this website is made by [papoGen](https://github
 
 ![](src/image/me.jpg)
 
-I'm a network researcher, studies on SDN/P4 currently. Also a Node.js player, Qt application/game maker. And the founder of [toolbuddy](https://github.com/toolbuddy).
+I'm a network researcher, studied SDN/P4 & network security in my master degree. Also I'm a Node.js player, Qt application/game maker, founder of [toolbuddy](https://github.com/toolbuddy).
 
 ---
 
