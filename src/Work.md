@@ -1,14 +1,15 @@
 ## Work experience 
 
-### A10 Network (2019.9 ~ Now)
+### A10 Network (2019.9 ~ 2021.6)
 
 * Junior Software Engineer, data plane team - TPS (2019.9 ~ 2020.2)
-* Junior Software Engineer, data plane team - CGN (2020.2 ~ Now)
+* Junior Software Engineer, data plane team - CGN (2020.2 ~ 2021.6)
+    * Cooperate with Ericsson - `cThunder`
 
 ### [EFACANI Tech.](https://www.efacani.com/efacani_Introduce/) (2018.3~2018.11)
 
-* Par time Back-end Engineer
-* Development ( `electron`, `node.js`, `git`, `heroku` )
+* Part-time Backend Engineer
+* Trading platform (`electron`, `node.js`, `git`, `heroku` )
     * Cryptocurrency trading bot
     * Web Service of trading bot 
 
